@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0494CBB21A8B2F1B008176EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494CBB11A8B2F1B008176EC /* main.m */; };
+		0494CBB51A8B2F1B008176EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494CBB41A8B2F1B008176EC /* AppDelegate.m */; };
+		0494CBB81A8B2F1B008176EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494CBB71A8B2F1B008176EC /* ViewController.m */; };
+		0494CBBB1A8B2F1B008176EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0494CBB91A8B2F1B008176EC /* Main.storyboard */; };
+		0494CBBD1A8B2F1B008176EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494CBBC1A8B2F1B008176EC /* Images.xcassets */; };
+		0494CBC01A8B2F1B008176EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0494CBBE1A8B2F1B008176EC /* LaunchScreen.xib */; };
+		0494CBCC1A8B2F1B008176EC /* TagsCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494CBCB1A8B2F1B008176EC /* TagsCloudTests.m */; };
+		0494CBD81A8B2F89008176EC /* WWTagsCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494CBD71A8B2F89008176EC /* WWTagsCloudView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0494CBC61A8B2F1B008176EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0494CBA41A8B2F1B008176EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0494CBAB1A8B2F1B008176EC;
+			remoteInfo = TagsCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0494CBAC1A8B2F1B008176EC /* TagsCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagsCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0494CBB01A8B2F1B008176EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0494CBB11A8B2F1B008176EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0494CBB31A8B2F1B008176EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0494CBB41A8B2F1B008176EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0494CBB61A8B2F1B008176EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0494CBB71A8B2F1B008176EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0494CBBA1A8B2F1B008176EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0494CBBC1A8B2F1B008176EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0494CBBF1A8B2F1B008176EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0494CBC51A8B2F1B008176EC /* TagsCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagsCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0494CBCA1A8B2F1B008176EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0494CBCB1A8B2F1B008176EC /* TagsCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsCloudTests.m; sourceTree = "<group>"; };
+		0494CBD61A8B2F89008176EC /* WWTagsCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTagsCloudView.h; sourceTree = "<group>"; };
+		0494CBD71A8B2F89008176EC /* WWTagsCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTagsCloudView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0494CBA91A8B2F1B008176EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494CBC21A8B2F1B008176EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0494CBA31A8B2F1B008176EC = {
+			isa = PBXGroup;
+			children = (
+				0494CBAE1A8B2F1B008176EC /* TagsCloud */,
+				0494CBC81A8B2F1B008176EC /* TagsCloudTests */,
+				0494CBAD1A8B2F1B008176EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0494CBAD1A8B2F1B008176EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0494CBAC1A8B2F1B008176EC /* TagsCloud.app */,
+				0494CBC51A8B2F1B008176EC /* TagsCloudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0494CBAE1A8B2F1B008176EC /* TagsCloud */ = {
+			isa = PBXGroup;
+			children = (
+				0494CBB31A8B2F1B008176EC /* AppDelegate.h */,
+				0494CBB41A8B2F1B008176EC /* AppDelegate.m */,
+				0494CBB61A8B2F1B008176EC /* ViewController.h */,
+				0494CBB71A8B2F1B008176EC /* ViewController.m */,
+				0494CBB91A8B2F1B008176EC /* Main.storyboard */,
+				0494CBBC1A8B2F1B008176EC /* Images.xcassets */,
+				0494CBBE1A8B2F1B008176EC /* LaunchScreen.xib */,
+				0494CBD51A8B2F2B008176EC /* WWTagsCloud */,
+				0494CBAF1A8B2F1B008176EC /* Supporting Files */,
+			);
+			path = TagsCloud;
+			sourceTree = "<group>";
+		};
+		0494CBAF1A8B2F1B008176EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0494CBB01A8B2F1B008176EC /* Info.plist */,
+				0494CBB11A8B2F1B008176EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0494CBC81A8B2F1B008176EC /* TagsCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				0494CBCB1A8B2F1B008176EC /* TagsCloudTests.m */,
+				0494CBC91A8B2F1B008176EC /* Supporting Files */,
+			);
+			path = TagsCloudTests;
+			sourceTree = "<group>";
+		};
+		0494CBC91A8B2F1B008176EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0494CBCA1A8B2F1B008176EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0494CBD51A8B2F2B008176EC /* WWTagsCloud */ = {
+			isa = PBXGroup;
+			children = (
+				0494CBD61A8B2F89008176EC /* WWTagsCloudView.h */,
+				0494CBD71A8B2F89008176EC /* WWTagsCloudView.m */,
+			);
+			name = WWTagsCloud;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0494CBAB1A8B2F1B008176EC /* TagsCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0494CBCF1A8B2F1B008176EC /* Build configuration list for PBXNativeTarget "TagsCloud" */;
+			buildPhases = (
+				0494CBA81A8B2F1B008176EC /* Sources */,
+				0494CBA91A8B2F1B008176EC /* Frameworks */,
+				0494CBAA1A8B2F1B008176EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagsCloud;
+			productName = TagsCloud;
+			productReference = 0494CBAC1A8B2F1B008176EC /* TagsCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0494CBC41A8B2F1B008176EC /* TagsCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0494CBD21A8B2F1B008176EC /* Build configuration list for PBXNativeTarget "TagsCloudTests" */;
+			buildPhases = (
+				0494CBC11A8B2F1B008176EC /* Sources */,
+				0494CBC21A8B2F1B008176EC /* Frameworks */,
+				0494CBC31A8B2F1B008176EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0494CBC71A8B2F1B008176EC /* PBXTargetDependency */,
+			);
+			name = TagsCloudTests;
+			productName = TagsCloudTests;
+			productReference = 0494CBC51A8B2F1B008176EC /* TagsCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0494CBA41A8B2F1B008176EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = WangWei;
+				TargetAttributes = {
+					0494CBAB1A8B2F1B008176EC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0494CBC41A8B2F1B008176EC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0494CBAB1A8B2F1B008176EC;
+					};
+				};
+			};
+			buildConfigurationList = 0494CBA71A8B2F1B008176EC /* Build configuration list for PBXProject "TagsCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0494CBA31A8B2F1B008176EC;
+			productRefGroup = 0494CBAD1A8B2F1B008176EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0494CBAB1A8B2F1B008176EC /* TagsCloud */,
+				0494CBC41A8B2F1B008176EC /* TagsCloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0494CBAA1A8B2F1B008176EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0494CBBB1A8B2F1B008176EC /* Main.storyboard in Resources */,
+				0494CBC01A8B2F1B008176EC /* LaunchScreen.xib in Resources */,
+				0494CBBD1A8B2F1B008176EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494CBC31A8B2F1B008176EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0494CBA81A8B2F1B008176EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0494CBB81A8B2F1B008176EC /* ViewController.m in Sources */,
+				0494CBB51A8B2F1B008176EC /* AppDelegate.m in Sources */,
+				0494CBB21A8B2F1B008176EC /* main.m in Sources */,
+				0494CBD81A8B2F89008176EC /* WWTagsCloudView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0494CBC11A8B2F1B008176EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0494CBCC1A8B2F1B008176EC /* TagsCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0494CBC71A8B2F1B008176EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0494CBAB1A8B2F1B008176EC /* TagsCloud */;
+			targetProxy = 0494CBC61A8B2F1B008176EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0494CBB91A8B2F1B008176EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0494CBBA1A8B2F1B008176EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0494CBBE1A8B2F1B008176EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0494CBBF1A8B2F1B008176EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0494CBCD1A8B2F1B008176EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0494CBCE1A8B2F1B008176EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0494CBD01A8B2F1B008176EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagsCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0494CBD11A8B2F1B008176EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagsCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0494CBD31A8B2F1B008176EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TagsCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagsCloud.app/TagsCloud";
+			};
+			name = Debug;
+		};
+		0494CBD41A8B2F1B008176EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TagsCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagsCloud.app/TagsCloud";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0494CBA71A8B2F1B008176EC /* Build configuration list for PBXProject "TagsCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0494CBCD1A8B2F1B008176EC /* Debug */,
+				0494CBCE1A8B2F1B008176EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0494CBCF1A8B2F1B008176EC /* Build configuration list for PBXNativeTarget "TagsCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0494CBD01A8B2F1B008176EC /* Debug */,
+				0494CBD11A8B2F1B008176EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0494CBD21A8B2F1B008176EC /* Build configuration list for PBXNativeTarget "TagsCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0494CBD31A8B2F1B008176EC /* Debug */,
+				0494CBD41A8B2F1B008176EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0494CBA41A8B2F1B008176EC /* Project object */;
+}

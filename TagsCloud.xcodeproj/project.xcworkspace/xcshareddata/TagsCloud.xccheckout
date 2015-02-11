@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6B8D93A-1B26-4E06-AAB6-7A62528566E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TagsCloud</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7836B82CFAA5020B5744CF0F29036EBB3EB0FFB5</key>
+		<string>https://github.com/wangweiarr/WWTagsCloud.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TagsCloud.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7836B82CFAA5020B5744CF0F29036EBB3EB0FFB5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wangweiarr/WWTagsCloud.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7836B82CFAA5020B5744CF0F29036EBB3EB0FFB5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7836B82CFAA5020B5744CF0F29036EBB3EB0FFB5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WWTagsCloud</string>
+		</dict>
+	</array>
+</dict>
+</plist>
